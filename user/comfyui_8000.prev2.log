@@ -1,0 +1,63 @@
+## ComfyUI-Manager: installing dependencies done.
+[2025-08-30 11:08:17.048] ** ComfyUI startup time: 2025-08-30 11:08:17.048
+[2025-08-30 11:08:17.048] ** Platform: Windows
+[2025-08-30 11:08:17.048] ** Python version: 3.12.9 (main, Feb 12 2025, 14:52:31) [MSC v.1942 64 bit (AMD64)]
+[2025-08-30 11:08:17.048] ** Python executable: D:\Resources\.venv\Scripts\python.exe
+[2025-08-30 11:08:17.048] ** ComfyUI Path: C:\Users\Admin\AppData\Local\Programs\@comfyorgcomfyui-electron\resources\ComfyUI
+[2025-08-30 11:08:17.048] ** ComfyUI Base Folder Path: C:\Users\Admin\AppData\Local\Programs\@comfyorgcomfyui-electron\resources\ComfyUI
+[2025-08-30 11:08:17.048] ** User directory: D:\Resources\user
+[2025-08-30 11:08:17.048] ** ComfyUI-Manager config path: D:\Resources\user\default\ComfyUI-Manager\config.ini
+[2025-08-30 11:08:17.049] ** Log path: D:\Resources\user\comfyui.log
+[ComfyUI-Manager] Skipped fixing the 'comfyui-frontend-package' dependency because the ComfyUI is outdated.
+[2025-08-30 11:08:18.161] 
+Prestartup times for custom nodes:
+[2025-08-30 11:08:18.161]    4.6 seconds: C:\Users\Admin\AppData\Local\Programs\@comfyorgcomfyui-electron\resources\ComfyUI\custom_nodes\ComfyUI-Manager
+[2025-08-30 11:08:18.161] 
+[2025-08-30 11:08:24.881] Checkpoint files will always be loaded safely.
+[2025-08-30 11:08:25.103] Total VRAM 16311 MB, total RAM 32678 MB
+[2025-08-30 11:08:25.103] pytorch version: 2.7.0+cu128
+[2025-08-30 11:08:25.103] Set vram state to: NORMAL_VRAM
+[2025-08-30 11:08:25.104] Device: cuda:0 NVIDIA GeForce RTX 5060 Ti : cudaMallocAsync
+[2025-08-30 11:08:28.900] Using pytorch attention
+[2025-08-30 11:08:44.562] Python version: 3.12.9 (main, Feb 12 2025, 14:52:31) [MSC v.1942 64 bit (AMD64)]
+[2025-08-30 11:08:44.562] ComfyUI version: 0.3.54
+[2025-08-30 11:08:44.586] [Prompt Server] web root: C:\Users\Admin\AppData\Local\Programs\@comfyorgcomfyui-electron\resources\ComfyUI\web_custom_versions\desktop_app
+[2025-08-30 11:08:51.608] Warning: Could not load sageattention: No module named 'sageattention'
+[2025-08-30 11:08:51.608] sageattention package is not installed, sageattention will not be available
+[2025-08-30 11:08:51.863] ### Loading: ComfyUI-Manager (V3.36)
+[2025-08-30 11:08:51.863] [ComfyUI-Manager] network_mode: public
+[2025-08-30 11:08:51.864] ### ComfyUI Revision: UNKNOWN (The currently installed ComfyUI is not a Git repository)
+[2025-08-30 11:08:51.937] 
+Import times for custom nodes:
+[2025-08-30 11:08:51.937]    0.0 seconds: D:\Resources\custom_nodes\lora-info
+[2025-08-30 11:08:51.938]    0.0 seconds: C:\Users\Admin\AppData\Local\Programs\@comfyorgcomfyui-electron\resources\ComfyUI\custom_nodes\websocket_image_save.py
+[2025-08-30 11:08:51.938]    0.0 seconds: D:\Resources\custom_nodes\comfyui-frame-interpolation
+[2025-08-30 11:08:51.938]    0.2 seconds: C:\Users\Admin\AppData\Local\Programs\@comfyorgcomfyui-electron\resources\ComfyUI\custom_nodes\ComfyUI-Manager
+[2025-08-30 11:08:51.938]    0.2 seconds: D:\Resources\custom_nodes\comfyui-kjnodes
+[2025-08-30 11:08:51.938]    0.5 seconds: D:\Resources\custom_nodes\comfyui-videohelpersuite
+[2025-08-30 11:08:51.938]    1.3 seconds: D:\Resources\custom_nodes\ComfyUI-WanVideoWrapper
+[2025-08-30 11:08:51.938]    2.0 seconds: D:\Resources\custom_nodes\ComfyUI-TeaCache
+[2025-08-30 11:08:51.938] 
+[2025-08-30 11:08:52.537] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2025-08-30 11:08:52.568] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2025-08-30 11:08:52.714] Failed to initialize database. Please ensure you have installed the latest requirements. If the error persists, please report this as in future the database will be required: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2025-08-30 11:08:52.732] Starting server
+
+[2025-08-30 11:08:52.732] To see the GUI go to: http://127.0.0.1:8000
+[2025-08-30 11:08:52.783] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2025-08-30 11:08:53.053] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2025-08-30 11:08:53.170] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2025-08-30 11:08:55.874] comfyui-frontend-package not found in requirements.txt
+[2025-08-30 11:08:56.991] comfyui-frontend-package not found in requirements.txt
+[2025-08-30 11:08:57.086] FETCH ComfyRegistry Data: 5/95
+[2025-08-30 11:08:57.955] Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+[2025-08-30 11:08:57.959] Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+[2025-08-30 11:09:01.890] FETCH ComfyRegistry Data: 10/95
+[2025-08-30 11:09:07.772] FETCH ComfyRegistry Data: 15/95
+[2025-08-30 11:09:12.195] FETCH ComfyRegistry Data: 20/95
+[2025-08-30 11:09:16.744] FETCH ComfyRegistry Data: 25/95
+[2025-08-30 11:09:21.058] FETCH ComfyRegistry Data: 30/95
+[2025-08-30 11:09:25.478] FETCH ComfyRegistry Data: 35/95

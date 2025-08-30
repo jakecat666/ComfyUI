@@ -1,0 +1,79 @@
+## ComfyUI-Manager: installing dependencies done.
+[2025-08-23 20:11:44.592] ** ComfyUI startup time: 2025-08-23 20:11:44.592
+[2025-08-23 20:11:44.592] ** Platform: Windows
+[2025-08-23 20:11:44.592] ** Python version: 3.12.9 (main, Feb 12 2025, 14:52:31) [MSC v.1942 64 bit (AMD64)]
+[2025-08-23 20:11:44.593] ** Python executable: D:\Resources\.venv\Scripts\python.exe
+[2025-08-23 20:11:44.593] ** ComfyUI Path: C:\Users\Admin\AppData\Local\Programs\@comfyorgcomfyui-electron\resources\ComfyUI
+[2025-08-23 20:11:44.593] ** ComfyUI Base Folder Path: C:\Users\Admin\AppData\Local\Programs\@comfyorgcomfyui-electron\resources\ComfyUI
+[2025-08-23 20:11:44.647] ** User directory: D:\Resources\user
+[2025-08-23 20:11:44.647] ** ComfyUI-Manager config path: D:\Resources\user\default\ComfyUI-Manager\config.ini
+[2025-08-23 20:11:44.647] ** Log path: D:\Resources\user\comfyui.log
+[ComfyUI-Manager] Failed to restore comfyui-frontend-package
+[2025-08-23 20:11:45.671] expected str, bytes or os.PathLike object, not NoneType
+[2025-08-23 20:11:45.671] 
+Prestartup times for custom nodes:
+[2025-08-23 20:11:45.671]    2.6 seconds: C:\Users\Admin\AppData\Local\Programs\@comfyorgcomfyui-electron\resources\ComfyUI\custom_nodes\ComfyUI-Manager
+[2025-08-23 20:11:45.671] 
+[2025-08-23 20:11:47.227] Checkpoint files will always be loaded safely.
+[2025-08-23 20:11:47.390] Total VRAM 16311 MB, total RAM 32678 MB
+[2025-08-23 20:11:47.390] pytorch version: 2.7.0+cu128
+[2025-08-23 20:11:47.390] Set vram state to: NORMAL_VRAM
+[2025-08-23 20:11:47.391] Device: cuda:0 NVIDIA GeForce RTX 5060 Ti : cudaMallocAsync
+[2025-08-23 20:11:48.713] --- Logging error ---
+[2025-08-23 20:11:48.713] Using pytorch attention
+[2025-08-23 20:11:49.954] --- Logging error ---
+[2025-08-23 20:11:49.954] Python version: 3.12.9 (main, Feb 12 2025, 14:52:31) [MSC v.1942 64 bit (AMD64)]
+[2025-08-23 20:11:49.954] --- Logging error ---
+[2025-08-23 20:11:49.954] ComfyUI version: 0.3.51
+[2025-08-23 20:11:49.978] --- Logging error ---
+[2025-08-23 20:11:49.978] [Prompt Server] web root: C:\Users\Admin\AppData\Local\Programs\@comfyorgcomfyui-electron\resources\ComfyUI\web_custom_versions\desktop_app
+[2025-08-23 20:11:53.272] --- Logging error ---
+[2025-08-23 20:11:53.272] Warning: Could not load sageattention: No module named 'sageattention'
+[2025-08-23 20:11:53.273] --- Logging error ---
+[2025-08-23 20:11:53.273] sageattention package is not installed, sageattention will not be available
+[2025-08-23 20:11:53.357] --- Logging error ---
+[2025-08-23 20:11:53.357] ### Loading: ComfyUI-Manager (V3.30.4)
+[2025-08-23 20:11:53.357] --- Logging error ---
+[2025-08-23 20:11:53.357] [ComfyUI-Manager] network_mode: public
+[2025-08-23 20:11:53.358] --- Logging error ---
+[2025-08-23 20:11:53.358] ### ComfyUI Revision: UNKNOWN (The currently installed ComfyUI is not a Git repository)
+[2025-08-23 20:11:53.369] --- Logging error ---
+[2025-08-23 20:11:53.369] 
+Import times for custom nodes:
+[2025-08-23 20:11:53.370] --- Logging error ---
+[2025-08-23 20:11:53.370]    0.0 seconds: C:\Users\Admin\AppData\Local\Programs\@comfyorgcomfyui-electron\resources\ComfyUI\custom_nodes\websocket_image_save.py
+[2025-08-23 20:11:53.371] --- Logging error ---
+[2025-08-23 20:11:53.371]    0.0 seconds: D:\Resources\custom_nodes\lora-info
+[2025-08-23 20:11:53.372] --- Logging error ---
+[2025-08-23 20:11:53.372]    0.0 seconds: D:\Resources\custom_nodes\comfyui-frame-interpolation
+[2025-08-23 20:11:53.372] --- Logging error ---
+[2025-08-23 20:11:53.372]    0.0 seconds: C:\Users\Admin\AppData\Local\Programs\@comfyorgcomfyui-electron\resources\ComfyUI\custom_nodes\ComfyUI-Manager
+[2025-08-23 20:11:53.373] --- Logging error ---
+[2025-08-23 20:11:53.373]    0.0 seconds: D:\Resources\custom_nodes\comfyui-videohelpersuite
+[2025-08-23 20:11:53.373] --- Logging error ---
+[2025-08-23 20:11:53.373]    0.0 seconds: D:\Resources\custom_nodes\comfyui-kjnodes
+[2025-08-23 20:11:53.373] --- Logging error ---
+[2025-08-23 20:11:53.373]    0.8 seconds: D:\Resources\custom_nodes\ComfyUI-TeaCache
+[2025-08-23 20:11:53.374] --- Logging error ---
+[2025-08-23 20:11:53.374]    1.4 seconds: D:\Resources\custom_nodes\ComfyUI-WanVideoWrapper
+[2025-08-23 20:11:53.374] --- Logging error ---
+[2025-08-23 20:11:53.374] 
+[2025-08-23 20:11:53.916] --- Logging error ---
+[2025-08-23 20:11:53.916] Failed to initialize database. Please ensure you have installed the latest requirements. If the error persists, please report this as in future the database will be required: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2025-08-23 20:11:53.941] --- Logging error ---
+[2025-08-23 20:11:53.941] Starting server
+
+[2025-08-23 20:11:53.941] --- Logging error ---
+[2025-08-23 20:11:53.941] To see the GUI go to: http://127.0.0.1:8005
+[2025-08-23 20:11:54.097] --- Logging error ---
+[2025-08-23 20:11:54.098] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2025-08-23 20:11:54.099] --- Logging error ---
+[2025-08-23 20:11:54.099] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2025-08-23 20:11:54.371] --- Logging error ---
+[2025-08-23 20:11:54.371] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2025-08-23 20:11:54.542] --- Logging error ---
+[2025-08-23 20:11:54.542] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2025-08-23 20:11:54.583] --- Logging error ---
+[2025-08-23 20:11:54.583] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2025-08-23 20:11:58.472] FETCH ComfyRegistry Data: 5/95Cannot connect to comfyregistry.[2025-08-23 20:11:58.473] Exception in thread Exception in threading.excepthook:Exception ignored in thread started byException ignored in sys.unraisablehook

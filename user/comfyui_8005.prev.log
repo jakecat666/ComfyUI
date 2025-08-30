@@ -1,0 +1,26 @@
+## ComfyUI-Manager: installing dependencies done.
+[2025-08-23 20:11:41.883] ** ComfyUI startup time: 2025-08-23 20:11:41.883
+[2025-08-23 20:11:41.883] ** Platform: Windows
+[2025-08-23 20:11:41.884] ** Python version: 3.12.9 (main, Feb 12 2025, 14:52:31) [MSC v.1942 64 bit (AMD64)]
+[2025-08-23 20:11:41.884] ** Python executable: D:\Resources\.venv\Scripts\python.exe
+[2025-08-23 20:11:41.884] ** ComfyUI Path: C:\Users\Admin\AppData\Local\Programs\@comfyorgcomfyui-electron\resources\ComfyUI
+[2025-08-23 20:11:41.884] ** ComfyUI Base Folder Path: C:\Users\Admin\AppData\Local\Programs\@comfyorgcomfyui-electron\resources\ComfyUI
+[2025-08-23 20:11:41.939] ** User directory: D:\Resources\user
+[2025-08-23 20:11:41.939] ** ComfyUI-Manager config path: D:\Resources\user\default\ComfyUI-Manager\config.ini
+[2025-08-23 20:11:41.939] ** Log path: D:\Resources\user\comfyui.log
+[2025-08-23 20:11:42.437] 
+#######################################################################
+[2025-08-23 20:11:42.437] [ComfyUI-Manager] Starting dependency installation/(de)activation for the extension
+[2025-08-23 20:11:42.437] 
+## ComfyUI-Manager: The scheduled 'D:\Resources\custom_nodes\facerestore_cf' is not a custom node path, so the deletion has been canceled.
+[2025-08-23 20:11:42.443] ## ComfyUI-Manager: The scheduled 'D:\Resources\custom_nodes\.disabled\facerestore_cf@nightly' is not a custom node path, so the deletion has been canceled.
+[2025-08-23 20:11:42.443] 
+[ComfyUI-Manager] Startup script completed.
+[2025-08-23 20:11:42.443] #######################################################################
+[2025-08-23 20:11:42.443] 
+[2025-08-23 20:11:42.942] [ComfyUI-Manager] Failed to restore comfyui-frontend-package
+[2025-08-23 20:11:42.942] expected str, bytes or os.PathLike object, not NoneType
+[2025-08-23 20:11:42.942] [ComfyUI-Manager] Restarting to reapply dependency installation.
+[2025-08-23 20:11:42.943] Command: ['"D:\\Resources\\.venv\\Scripts\\python.exe"', '"C:\\Users\\Admin\\AppData\\Local\\Programs\\@comfyorgcomfyui-electron\\resources\\ComfyUI\\main.py"', '--user-directory', 'D:\\Resources\\user', '--input-directory', 'D:\\Resources\\input', '--output-directory', 'D:\\Resources\\output', '--front-end-root', 'C:\\Users\\Admin\\AppData\\Local\\Programs\\@comfyorgcomfyui-electron\\resources\\ComfyUI\\web_custom_versions\\desktop_app', '--base-directory', 'D:\\Resources', '--extra-model-paths-config', 'C:\\Users\\Admin\\AppData\\Roaming\\ComfyUI\\extra_models_config.yaml', '--log-stdout', '--listen', '127.0.0.1', '--port', '8005']
+[2025-08-23 20:11:42.943] --------------------------------------------------------------------------
+[2025-08-23 20:11:42.943] 
